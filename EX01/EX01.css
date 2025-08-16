@@ -1,0 +1,59 @@
+
+body {
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+}
+.introduce { 
+    height:200px;
+    background: rgb(0, 115, 255);
+}
+
+.introduce h1 {
+    font-family: sans-serif;
+    color:white;
+    line-height: 100px;
+    text-align: center;
+}
+
+.introduce nav {
+    font-family: sans-serif;
+    text-align: center;
+    word-spacing: 30px;
+}
+
+.introduce nav a {
+    color:white;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px 300px;
+    align-items: center;
+    display:flex;
+    gap: 10px;
+}
+
+img {
+    width:200px;
+    height:150px;
+    border-radius:50%;
+    border: 3px solid rgb(0, 132, 255);
+}
+
+text {
+    font-size: 20px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(217, 216, 216);
+    text-align: center;
+}
+footer a {
+    color: rgb(0, 162, 255);
+}

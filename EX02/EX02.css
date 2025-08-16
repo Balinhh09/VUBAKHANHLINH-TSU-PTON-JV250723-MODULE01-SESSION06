@@ -1,0 +1,51 @@
+body {
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.sign-in {
+    background-color: white;
+    margin: 30px;
+    border: 1px solid #ebe6e6;
+    border-radius: 10px;
+    width: 450px ;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.name-input {
+    margin: 15px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 400px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+button {
+    margin: 15px;
+    width: 400px;
+    padding: 15px;
+    background-color: rgb(1, 149, 248);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 500;
+}
